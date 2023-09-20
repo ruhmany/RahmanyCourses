@@ -1,0 +1,41 @@
+<div class="container py-5">
+    <div class="d-flex flex-column flex-lg-row w-100 border-bottom mb-2">
+        <h1 class="verticaltext d-none d-lg-block mt-2">Rahmany</h1>
+        <div class="container d-flex flex-column">
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis at reprehenderit unde tempore a,
+                fuga similique perspiciatis et sint illum, molestiae id cumque optio nam culpa iste corrupti numquam
+                error deserunt enim officia natus, voluptas dignissimos. Tempore, voluptatibus magnam alias corrupti,
+                recusandae explicabo est, optio dolorum at facere placeat, Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dicta veniam sed quibusdam minima perferendis, earum ex. Modi, tempora nesciunt ut,
+                ipsum vel adipisci nobis doloribus dolore rem perferendis est deleniti culpa, dolor maiores possimus
+                dolores sed ipsa impedit aut veniam soluta officiis optio? Vel temporibus eligendi nisi quibusdam, odit
+                voluptate?</p>
+            <button class="btn greenbtn">Discover More!</button>
+        </div>
+        <img src="../assets/images/OurVision.png" class="img-fluid w-50 d-none d-lg-block" alt="">
+    </div>
+
+    <div class="container mt-3 border-bottom">
+        <h1 class="mb-3">OUR <span>SERVICES</span></h1>
+        <div class="d-flex flex-row flex-wrap justify-content-evenly w-100">
+            <app-myservices class="col-sm-12 col-lg-4 col-md-6 p-4" *ngFor="let service of ourservices"
+                [service]="service"></app-myservices>
+        </div>
+    </div>
+
+    <div class="container mx-3 mt-4">
+        <div class="d-flex flex-column p-5 containercolor">
+            <h1 class="text-white">Subscripe to our <span class="text-warning">site</span></h1>
+            <h4 class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima commodi sequi dicta
+                minus cum suscipit
+                molestiae, quam hic totam? Aut?</h4>
+            <div class="d-flex flex-row bg-white p-1">
+                <input class="form-control form-control-lg border-0" type="text" placeholder="Enter your e-mail here"
+                    aria-label=".form-control-lg example">
+                <button class="Sendmail">Send</button>
+            </div>
+
+        </div>
+    </div>
+</div>
