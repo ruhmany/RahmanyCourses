@@ -1,0 +1,25 @@
+.verticaltext{
+    writing-mode: vertical-rl;
+    text-orientation: mixed; 
+    letter-spacing: 1rem;
+ }
+
+ .greenbtn{
+    background-color: green;
+    width: 200px;
+    height: auto;
+    color: white;
+ }
+
+ .containercolor{
+    background-color: #564EC8;
+    border: 4px solid black;
+    box-shadow: -10px 10px 0 0 #000;
+ }
+
+ .Sendmail{
+    width: 100px;
+    background-color: green;
+    border: none;
+    color: white;
+ }
